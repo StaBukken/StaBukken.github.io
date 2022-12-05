@@ -1,0 +1,68 @@
+/*@media*/
+
+
+
+
+#container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+#høyre_farge {
+    background-color: rgb(138, 179, 255);
+    flex-direction:row;
+    height: 100%;
+    width: 12%;
+}
+
+#content {
+    background-color: rgb(114, 236, 255);
+    flex-direction: row;
+    height: 100%;
+    width: 76%;
+}
+#overskrift {
+    flex-direction: row;
+    height: 30%;
+    width: 100%;
+    text-align: center;
+    color:darkmagenta;
+}
+
+#info {
+    display: flex;
+    height: 70%;
+    width: 45%;
+    color:darkmagenta;
+    padding: 5mm;
+    font:large ;
+    
+}
+
+#infotext {
+    color:darkmagenta;
+    padding: 5mm;
+    padding-right: 65mm;
+    width: 100%;
+    height: 50%;
+}
+
+#bilde {
+    flex-direction: row;
+    height: 50%;
+    width: 10%;
+    
+}
+
+#matinfo  {
+    height: 20%;
+    width: 100%;
+}
+
+#venstre_farge{
+    background-color: rgb(138, 179, 255);
+    flex-direction: row;
+    height: 100%;
+    width: 12%;
+}
